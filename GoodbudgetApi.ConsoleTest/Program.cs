@@ -8,7 +8,7 @@ namespace GoodbudgetApi.ConsoleTest
     {
         static void Main(string[] args)
         {
-            GoodbudgetHousehold household = GoodbudgetHousehold.Login("ikahl", "y``u14N3Pin?3-QH");
+            GoodbudgetHousehold household = GoodbudgetHousehold.Login("", "");
 
             var accounts = household.GetAccounts();
 
